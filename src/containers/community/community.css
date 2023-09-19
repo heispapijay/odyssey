@@ -1,0 +1,34 @@
+
+.community_title-text {
+    color: #020305;
+    font-family: Plus Jakarta Sans;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 35rem;
+    margin: 0;
+}
+.forspace{
+    float: left;
+}
+
+.padding_body {
+    padding: 30px;
+}
+
+.community_images {
+    padding: 25px;
+    background-color: #A9C2CB;
+    border-radius: 24px;
+}
+
+.community_list {
+    width: 19rem;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.community_right-section{
+    float: right;
+}

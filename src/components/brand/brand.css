@@ -1,0 +1,50 @@
+.brand {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.section_padding img{
+    width: 10rem;
+}
+
+.brand div {
+    flex: 1;
+    max-width: 100%;
+    min-width: 120px;
+    margin: 1rem;
+    display: flex;
+    justify-content:space-around;
+}
+.with_padding {
+    padding: 1rem;
+}
+
+@media screen and (max-width: 1050px) {
+    h2 {
+        font-size: 3rem;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    .with_padding {
+        padding: 4rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    h2 {
+        font-size: 2rem;
+    }
+
+    .with_padding {
+        padding: 3rem;
+    }
+}

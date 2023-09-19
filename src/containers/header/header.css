@@ -1,0 +1,154 @@
+/* In a separate CSS file or using a CSS-in-JS library */
+.header {
+    position: relative;
+    padding: 20px;
+  }
+  
+  .header-top {
+    position: relative;
+  }
+  
+  .header-image {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .header-image img {
+    max-width: 100%;
+    border-radius: 40px;
+    height: 29rem;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    padding: 0;
+    top: 3rem;
+    left: 3rem;
+    color: white;
+    font-family: Plus Jakarta Sans;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  .text-overlay p {
+    margin: 0;
+  }
+  
+  .astro_container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+    
+  }
+  
+  .container-inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .image-box {
+    position: relative;
+  }
+  
+  .image-box img {
+    width: 40rem;
+    height: 40rem;
+  }
+  
+  .floating-cards {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Style your floating cards here */
+  }
+  
+  
+  .bottom-card {
+    position: absolute;
+    bottom: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    background-color: #0D0F12;
+    border-radius: 20px;
+  }
+
+  .card__content {
+    padding: 0.5rem;
+  }
+
+  .card__icon{
+    display: inline;
+    background-color: #A9C2CB;
+    width: 3rem;
+    height: 3rem;
+  }
+
+    .card__icon img{
+        float: left;
+        margin-top: 3px;
+        width: 3rem;
+        height: 2rem;
+        border-radius: 20px;
+        background-color: #A9C2CB;
+        
+    }
+
+  .card__title {
+    display: inline;
+    color: white;
+    padding: 15px;
+  }
+
+  .card__subtext{
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.5rem;
+  }
+  
+  .header-bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left-section p {
+    margin: 2rem 0 0 0;
+    width: 39rem;
+    height: 10rem;
+    color: #171E27;
+    font-family: Plus Jakarta Sans;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.0625rem;
+  }
+  
+  .get-started-button {
+    padding: 1.6rem 3.38rem;
+    color: white;
+    background-color: #0D0F12;
+    border-radius: 1.25rem;
+    border: none;
+    font-family: Plus Jakarta Sans;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+ 
+  
