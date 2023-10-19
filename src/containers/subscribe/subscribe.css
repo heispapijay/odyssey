@@ -1,0 +1,52 @@
+.subscribe {
+    max-width: 100%;
+    border-radius: 40px;
+    height: 29rem;
+    padding: 10px;
+    margin: 1rem;
+}
+
+.subscribe_list {
+    padding: 4.38rem 2.5rem;
+}
+
+.subscribe_list h1{
+    padding: 0;
+    margin: 1;
+    color: #FFF;
+    font-family: Plus Jakarta Sans;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+.subscribe_list-text p{
+    width: 24rem;
+    color: #FFF;
+    font-size: 0.9rem;
+    margin-bottom: 2.04rem;
+}
+
+button {
+    padding: 1.2rem 2.5rem;
+    border-radius: 1rem;
+    border: none;
+    margin-left: 0.5rem;
+    background-color: #A9C2CB;
+    color: #FFF;
+    font-family: Plus Jakarta Sans;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    
+}
+
+input {
+    width: 26rem;
+    padding: 1.375rem 1.5rem;
+    border-radius: 1rem;
+    border: #FFF;
+    font-size: 1rem;
+}

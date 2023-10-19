@@ -1,0 +1,58 @@
+.explore {
+    padding: 3rem 1rem;
+    display: block;
+    clear: both;
+  }
+  
+  .explore-top {
+    position: static;
+    display: block;
+  }
+  
+  .explore-image {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .explore-image img {
+    max-width: 100%;
+    border-radius: 40px;
+    height: 29rem;
+  }
+  
+  .text-overlay2 {
+    position: absolute;
+    padding: 0;
+    top: 1rem;
+    color: white;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  .text-overlay p {
+    margin: 0;
+  }
+
+  .explore_bottom-section {
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    top: -9rem;
+
+  }
+
+  .explore_list {
+    width: 14rem;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 2rem 3rem;
+}
+
+.explore_list h1{
+    margin: 0;
+}

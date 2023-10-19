@@ -4,6 +4,8 @@ import Navbar from './components/navbar/Navbar';
 import Header from './containers/header/Header';
 import Brand from './components/brand/Brand';
 import Community from './containers/community/Community';
+import Explore from './containers/explore/Explore';
+import Subscribe from './containers/subscribe/Subscribe';
 
 export default function App() {
   return (
@@ -13,8 +15,8 @@ export default function App() {
         <Header />
         <Brand />
         <Community /> 
-        
-        
+        <Explore />
+        <Subscribe />
       </header>
     </div>
   );

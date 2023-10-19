@@ -24,11 +24,16 @@
 }
 
 .community_list {
-    width: 19rem;
+    width: 18rem;
     display: inline-block;
     margin: 0 10px;
 }
 
 .community_right-section{
-    float: right;
+    display: flex;
 }
+
+.below .community_right-section{
+    display: flex;
+}
+
